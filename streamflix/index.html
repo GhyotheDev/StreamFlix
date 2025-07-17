@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Watch Movies & TV Shows</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#">STREAMFLIX</a>
+            </div>
+            <nav class="main-nav">
+                <a href="#" class="nav-item active">Home</a>
+                <a href="#" class="nav-item">TV Shows</a>
+                <a href="#" class="nav-item">Movies</a>
+                <a href="#" class="nav-item">New & Popular</a>
+                <a href="#" class="nav-item">My List</a>
+            </nav>
+            <div class="nav-right">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Titles, people, genres">
+                </div>
+                <a href="#" class="nav-item">Kids</a>
+                <a href="#" class="nav-item"><i class="fas fa-bell"></i></a>
+                <div class="profile-menu">
+                    <img src="img/profile.png" alt="Profile" class="profile-icon">
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <img src="img/hero-title.png" alt="Featured Title" class="hero-title">
+            <div class="hero-buttons">
+                <button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
+                <button class="btn btn-more-info"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+            <p class="hero-description">
+                A brilliant but troubled scientist embarks on a dangerous journey to uncover the truth behind a mysterious phenomenon that threatens humanity's existence.
+            </p>
+        </div>
+        <div class="hero-vignette"></div>
+    </div>
+
+    <main class="content">
+        <section class="row">
+            <h2 class="row-title">Popular on StreamFlix</h2>
+            <div class="row-posters">
+                <div class="poster-container">
+                    <img src="img/poster1.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">97% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">2h 15m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Action</span> • <span>Adventure</span> • <span>Sci-Fi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster2.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">95% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">1h 48m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Drama</span> • <span>Mystery</span> • <span>Thriller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster3.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">91% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">2h 5m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Comedy</span> • <span>Romance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster4.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">98% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Horror</span> • <span>Supernatural</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster5.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">93% Match</span>
+                            <span class="rating">PG</span>
+                            <span class="duration">1h 52m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Animation</span> • <span>Family</span> • <span>Adventure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster6.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">89% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">2h 32m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Action</span> • <span>Crime</span> • <span>Drama</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="row-posters">
+                <div class="poster-container">
+                    <img src="img/poster7.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">96% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">Limited Series</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Documentary</span> • <span>Crime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster8.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">92% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">2h 10m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Fantasy</span> • <span>Adventure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster9.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">94% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">2 Seasons</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Drama</span> • <span>Thriller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster10.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">90% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">1h 58m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Comedy</span> • <span>Action</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster11.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">97% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">5 Seasons</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Sci-Fi</span> • <span>Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster12.jpg" alt="Movie" class="row-poster">
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">88% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">2h 5m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Action</span> • <span>Superhero</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row">
+            <h2 class="row-title">Watch Again</h2>
+            <div class="row-posters">
+                <div class="poster-container">
+                    <img src="img/poster13.jpg" alt="Movie" class="row-poster">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">99% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">4 Seasons</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Drama</span> • <span>Crime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster14.jpg" alt="Movie" class="row-poster">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 45%"></div>
+                    </div>
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">91% Match</span>
+                            <span class="rating">PG-13</span>
+                            <span class="duration">2h 15m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Sci-Fi</span> • <span>Adventure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster15.jpg" alt="Movie" class="row-poster">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">95% Match</span>
+                            <span class="rating">TV-14</span>
+                            <span class="duration">3 Seasons</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Comedy</span> • <span>Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster16.jpg" alt="Movie" class="row-poster">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 30%"></div>
+                    </div>
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">93% Match</span>
+                            <span class="rating">R</span>
+                            <span class="duration">2h 22m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Action</span> • <span>Thriller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster17.jpg" alt="Movie" class="row-poster">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">96% Match</span>
+                            <span class="rating">TV-MA</span>
+                            <span class="duration">Limited Series</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Mystery</span> • <span>Thriller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <img src="img/poster18.jpg" alt="Movie" class="row-poster">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 15%"></div>
+                    </div>
+                    <div class="poster-info">
+                        <div class="poster-buttons">
+                            <button class="poster-btn"><i class="fas fa-play"></i></button>
+                            <button class="poster-btn"><i class="fas fa-plus"></i></button>
+                            <button class="poster-btn"><i class="fas fa-thumbs-up"></i></button>
+                        </div>
+                        <div class="poster-details">
+                            <span class="match">89% Match</span>
+                            <span class="rating">PG</span>
+                            <span class="duration">1h 45m</span>
+                        </div>
+                        <div class="poster-genres">
+                            <span>Animation</span> • <span>Comedy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <a href="#">Audio Description</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Legal Notices</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="#">Help Center</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Corporate Information</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="#">Media Center</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <button class="service-code">Service Code</button>
+            <p class="copyright">© 2023 StreamFlix. This is a demo project for portfolio purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="js/movie-data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
