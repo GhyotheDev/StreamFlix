@@ -45,7 +45,7 @@ For deploying this application to the cloud, see the included architecture diagr
 
 ## Screenshots
 
-![StreamFlix Screenshot](screenshot.png)
+![StreamFlix Screenshot](streamflixscreenshotgv.png)
 
 ## Note
 
